@@ -1,0 +1,23 @@
+.background{
+-fx-background-image: url(/fxmlForms/back1.jpg);
+}
+#buttonc{
+-fx-background-image: url(/back2.png);
+
+}
+#textfield{
+-fx-background-image: url(/fxmlForms/back2.png);
+
+
+}
+#buttonW{
+-fx-background-image: url(/fxmlForms/cancel-512-2.png);
+-fx-background-repeat: no-repeat;
+}
+.glav{
+-fx-background-image: url(/fxmlForms/grad.jpg);
+-fx-background-repeat: no-repeat;
+}
+#m{
+-fx-background-image: url(/fxmlForms/back2.png);
+}

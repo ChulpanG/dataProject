@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="365.0" prefWidth="475.0" styleClass="background" stylesheets="@css1scene.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmlControllers.AutorizationController">
+    <children>
+        <Button id="buttonc" fx:id="enter1" layoutX="281.0" layoutY="250.0" onAction="#handleButtonAction" prefHeight="42.0" prefWidth="111.0" style="-fx-background-color: #c9c9c9;" stylesheets="@css1scene.css" text="ВОЙТИ" AnchorPane.rightAnchor="83.0">
+         <font>
+            <Font name="Futura Bold" size="14.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets></Button>
+      <PasswordField id="textfield" fx:id="password1" layoutX="173.0" layoutY="184.0" prefHeight="27.0" prefWidth="219.0" stylesheets="@css1scene.css" />
+      <TextField id="textfield" fx:id="textField1" layoutX="173.0" layoutY="127.0" prefHeight="27.0" prefWidth="219.0" stylesheets="@css1scene.css" />
+      <Label fx:id="label1" layoutX="87.0" layoutY="131.0" text="ЛОГИН">
+         <font>
+            <Font name="Futura Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="87.0" layoutY="187.0" text="ПАРОЛЬ">
+         <font>
+            <Font name="Futura Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="153.0" layoutY="220.0" prefHeight="19.0" prefWidth="239.0" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Button id="buttonc" fx:id="enter2" layoutX="87.0" layoutY="250.0" mnemonicParsing="false" onAction="#h" prefHeight="42.0" prefWidth="168.0" style="-fx-background-color: #c9c9c9;" stylesheets="@css1scene.css" text="РЕГИСТРАЦИЯ" wrapText="true">
+         <font>
+            <Font name="Futura Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button id="buttonW" fx:id="krest1" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="372.0" layoutY="133.0" mnemonicParsing="false" onAction="#cleanButtonAction1" prefHeight="15.0" prefWidth="15.0" scaleShape="false" style="-fx-background-color: transparent; -fx-background-size: cover;" stylesheets="@css1scene.css">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Button>
+      <Button id="buttonW" fx:id="krest2" cacheShape="false" centerShape="false" focusTraversable="false" layoutX="372.0" layoutY="190.0" mnemonicParsing="false" onAction="#cleanButtonAction2" prefHeight="15.0" prefWidth="15.0" scaleShape="false" style="-fx-background-color: transparent; -fx-background-size: cover;" stylesheets="@css1scene.css">
+         <font>
+            <Font size="6.0" />
+         </font>
+      </Button>
+      <Label fx:id="auto" layoutX="87.0" layoutY="57.0" text="АВТОРИЗАЦИЯ">
+      <font>
+            <Font name="Futura Bold" size="25.0" />
+         </font>
+       </Label>  
+    </children>
+</AnchorPane>

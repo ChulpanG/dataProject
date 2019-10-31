@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="376.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmlControllers.RegistrationController">
+   <children>
+      <PasswordField fx:id="passwordreg2" layoutX="43.0" layoutY="468.0" minHeight="20.0" prefHeight="25.0" prefWidth="290.0" />
+      <PasswordField fx:id="passwordreg" layoutX="43.0" layoutY="398.0" minHeight="20.0" prefHeight="25.0" prefWidth="290.0" />
+      <TextField fx:id="loginreg" layoutX="43.0" layoutY="118.0" minHeight="20.0" prefHeight="25.0" prefWidth="290.0" />
+      <TextField fx:id="email" layoutX="43.0" layoutY="188.0" minHeight="20.0" prefHeight="25.0" prefWidth="290.0" />
+      <TextField fx:id="surname" layoutX="43.0" layoutY="258.0" minHeight="20.0" prefHeight="25.0" prefWidth="290.0" />
+      <TextField fx:id="name" layoutX="43.0" layoutY="328.0" minHeight="20.0" prefHeight="25.0" prefWidth="290.0" />
+      <Label layoutX="43.0" layoutY="88.0" text="ЛОГИН">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="158.0" text="EMAIL">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="228.0" text="ФАМИЛИЯ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="298.0" text="ИМЯ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="368.0" text="ПАРОЛЬ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="438.0" text="ПОВТОРИТЕ ПАРОЛЬ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="45.0" prefHeight="29.0" prefWidth="200.0" text="РЕГИСТРАЦИЯ">
+         <font>
+            <Font name="AdobeFanHeitiStd-Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="error" layoutX="43.0" layoutY="490.0" prefHeight="30.0" prefWidth="400.0" textFill="RED" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true" />
+      <Button fx:id="okbutton" layoutX="153.0" layoutY="528.0" mnemonicParsing="false" onAction="#reg" prefHeight="30.0" prefWidth="180.0" style="-fx-background-color: #e6e1e1;" text="ЗАРЕГИСТРИРОВАТЬСЯ" />
+      <Button fx:id="nazad" layoutX="43.0" layoutY="528.0" mnemonicParsing="false" onAction="#Back" prefHeight="30.0" prefWidth="90.0" style="-fx-background-color: #e6e1e1;" text="НАЗАД" />
+   </children>
+</AnchorPane>

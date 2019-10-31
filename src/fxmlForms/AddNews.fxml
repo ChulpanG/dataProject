@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="442.0" prefWidth="526.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmlControllers.AddNewsController">
+   <children>
+      <TextField fx:id="newsName" layoutX="60.0" layoutY="60.0" prefHeight="30.0" prefWidth="400.0" promptText="Название новости" />
+      <TextArea fx:id="newsText" layoutX="60.0" layoutY="140.0" prefHeight="200.0" prefWidth="400.0" promptText="Текст новости" />
+      <TextField fx:id="newsCreator" layoutX="60.0" layoutY="100.0" prefHeight="30.0" prefWidth="190.0" promptText="Создатель новости" />
+      <DatePicker fx:id="newsDate" layoutX="270.0" layoutY="100.0" prefHeight="30.0" prefWidth="190.0" promptText="Дата создания" />
+      <Button fx:id="cancel" layoutX="58.0" layoutY="359.0" mnemonicParsing="false" onAction="#cancelButton" prefHeight="30.0" prefWidth="120.0" text="НАЗАД" />
+      <Button fx:id="add" layoutX="338.0" layoutY="359.0" mnemonicParsing="false" onAction="#addButton" prefHeight="30.0" prefWidth="120.0" text="ДОБАВИТЬ" />
+      <Button fx:id="edit" layoutX="338.0" layoutY="359.0" mnemonicParsing="false" onAction="#editButton" prefHeight="30.0" prefWidth="120.0" text="ИЗМЕНИТЬ" visible="false" />
+   </children>
+</AnchorPane>

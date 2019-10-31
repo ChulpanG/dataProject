@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmlControllers.MainPageController">
+   <children>
+      <TableView fx:id="newsList" layoutX="83.0" layoutY="92.0" prefHeight="200.0" prefWidth="397.0">
+         <columns>
+            <TableColumn fx:id="newsID" prefWidth="75.0" text="newsID" />
+            <TableColumn fx:id="newsName" prefWidth="75.0" text="newsName" />
+            <TableColumn fx:id="newsText" prefWidth="75.0" text="newsText" />
+            <TableColumn fx:id="newsCreator" prefWidth="75.0" text="newsCreator" />
+            <TableColumn fx:id="newsDate" prefWidth="75.0" text="newsDate" />
+         </columns></TableView>
+      <Button fx:id="add" layoutX="509.0" layoutY="92.0" mnemonicParsing="false" onAction="#addButton" text="Add" />
+      <Button fx:id="edit" layoutX="509.0" layoutY="136.0" mnemonicParsing="false" onAction="#editNewsButton" text="Edit" />
+      <Button fx:id="cancel" layoutX="507.0" layoutY="221.0" mnemonicParsing="false" onAction="#cancelButton" text="log out" />
+      <Button fx:id="delete" layoutX="509.0" layoutY="179.0" mnemonicParsing="false" onAction="#deleteButton" text="Delete" />
+   </children>
+</Pane>
